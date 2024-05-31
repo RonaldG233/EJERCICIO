@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORMULARIO</title>
+</head>
+
+<body>  
+
+    <H1>FORMULARIO</H1>
+ 
+    <h2>
+<form action="controlador" method="get">
+    <div><br>           <label for="Nombre">NOMBRE COMPLETO:</label>
+
+        
+        <input type="text" name="Nombre" required placeholder="Ingrese su Nombre" id="Nombre" autofocus
+        autocomplete="off">
+    </br>
+    <div>
+       
+<div><br><label for="number">EDAD:</label>
+<input type="number" step="1" min="16" max="60"  name="Edad"></br></div>
+
+
+<div><br><label for="email">EMAIL PERSONAL:</label>
+  <input type="email" name="email" required placeholder="Ingrese su Email" id="email" autofocus
+autocomplete="off" ></br></div>
+<div><br><label for="Numero">NUMERO DE TELEFONO:</label>
+<input type="number" name="Numero" min="100000000" max="9999999999" required placeholder="Ingrese su Numero" id="Numero" autofocus
+autocomplete="off" ></br></div>
+
+<div><br><label for="ciudad">CIUDAD DE VIVIENDA</label>
+<select name="ciudad" id="ciudad"><option value="1">BUCARAMANGA</option>
+<option value="2">GIRON</option>
+<option value="3">BOGOTA</option>
+<option value="4">PIEDECUESTA</option>
+<option value="5">SAN GIL</option></select></br></div>
+
+
+ <div><br><label for="genero">GENERO: </label>
+<div><input type="radio" name="genero">MASCULINO
+<div><input type="radio" name="genero">FEMENINO
+<div><input type="radio" name="genero">NO IDENTIFICADO</br></div>
+
+<div><br><label for="tarea">QUE TRABAJOS HAY POR ENTREGAR:</label>
+    <div><label for="tarea"><input type="checkbox" name="">HTML</label>
+<div><label for="tarea"><input type="checkbox" name="">MYSQL</label>
+<div><label for="tarea"><input type="checkbox" name="">C#</label>
+<div><label for="tarea"><input type="checkbox" name="">PYTHON</label></br></div>
+
+<div>foto de la cedula: <input accept="image/png" multiple type="file" checked ></div>
+</h2>
+<h3>
+<button type="submit" href=ejercicio.html>GUARDAR</button>
+<button type="reset" color="black" >RESETEAR</button>
+</h3>                
+<div></div>
+</form>
+
+
+</border>
+</margin>
+</body>
+
+</html>
